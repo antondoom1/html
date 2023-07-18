@@ -1,4 +1,4 @@
-let passport = {
+let passport3 = {
     name: "Petr",
     surname: "Petrov",
     address: {
@@ -7,9 +7,9 @@ let passport = {
     }
 };
 
-let passport2 = { ...passport, address: { ...passport.address } }
+let passport4 = { ...passport3, address: { ...passport3.address } }
 
-passport2.address.city = 'Bobryisk'
+passport4.address.city = 'Bobryisk'
 
-console.log(passport.address.city);
-console.log(passport2.address.city);
+console.log(passport3.address.city);
+console.log(passport4.address.city);
