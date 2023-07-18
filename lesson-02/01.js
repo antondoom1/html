@@ -1,5 +1,5 @@
-const passFive = (value) => {
+const doArrow = (value) => {
   console.log(value);
 }
 
-passFive('Передай 5')
+doArrow('Передай 5')

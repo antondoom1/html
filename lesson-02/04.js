@@ -1,4 +1,4 @@
-const passFive = (value1, value2, maximum) => {
+const giveMeRightCondition = (value1, value2, maximum) => {
     if (value1 === value2 && value1 <= maximum) {
         console.log('Success!');
     } else {
@@ -6,4 +6,4 @@ const passFive = (value1, value2, maximum) => {
     }
 }
 
-passFive(101, 100, 200)
+giveMeRightCondition(101, 100, 200)
