@@ -2,7 +2,7 @@ let passport3 = {
     name: "Petr",
     surname: "Petrov",
     address: {
-        counry: "USA",
+        country: "USA",
         city: "LA"
     }
 };
